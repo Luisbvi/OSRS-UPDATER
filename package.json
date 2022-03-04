@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "canvas": "^2.9.0",
+    "discord.js": "^13.6.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.1.8",
+    "osrs-json-api": "^1.5.0"
+  },
+  "name": "osrs-services-updater",
+  "version": "1.0.0",
+  "description": "UPDATER FOR SERVICES",
+  "main": "./Structures/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./Structures/index.js"
+  },
+  "author": "Luisbvi",
+  "license": "ISC"
+}
